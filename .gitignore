@@ -1,0 +1,34 @@
+# Data: the dataset is not redistributed (see README > Dataset)
+data/raw/*
+data/processed/*
+!data/README.md
+
+# Trained models (re-create with: python -m src.train)
+models/
+*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Virtual environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
